@@ -11,6 +11,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
+/* CSS for Nav Bar Section */
 nav{
     display: flex;
     justify-content: space-between;
@@ -46,6 +47,8 @@ a{
     border-bottom: 2px solid #F27649;
     margin: 1rem;
 }
+/* CSS for Body Starts */
+/* Section 1 CSS */
 .container{
     position: relative;
     align-items: center;
@@ -107,6 +110,7 @@ a{
     background-color:rgb(250, 29, 0);
     box-shadow: 5px 10px 30px rgba(35, 38, 41, 0.884);
 }
+/* Section 1 over and Section 2 Starts */
 .about_bksc{
     padding: 0rem 1rem;
     margin-bottom: 1rem;
@@ -120,6 +124,8 @@ a{
 .about_bksc p{
     color: #494d60;
 }
+/* Section2 Ends as section 2 get overlap in Section1 */
+/* Section 3 Meal Cards */
 .meals{
     padding: 0rem 1rem ;
     width: 100%;
@@ -172,6 +178,7 @@ a{
     width: 100%;
     padding: 1rem;
 }
+/* Section 3 End, Now Footer Section Starts */
 footer{
     width: 100%;
     padding: 0rem 1rem;
@@ -224,17 +231,8 @@ footer{
     width: 100%;
     height: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
+/* Here CSS Coding For Mobile View END */
+/* Here CSS code for Desktop and Tab View */
 @media (min-width: 900px){
     ul{
         list-style: none;
