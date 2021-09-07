@@ -178,7 +178,42 @@ a{
     width: 100%;
     padding: 1rem;
 }
-/* Section 3 End, Now Footer Section Starts */
+/* Section 2 end and Section 3 Start */
+.email_input{
+    padding: 0px 16px;
+}
+.add_email{
+    text-align: center;
+}
+.add_email h1{
+    color: #282a35;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+.add_email p{
+    color: #282a35;
+    font-weight: 0;
+    font-size: 0.8rem;
+    line-height: default;
+}
+.email_enter{
+    border: 2px solid #ff9a7b;
+    background-color: #fcedf0;
+    color: #f07545;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 4px; 
+    width: 50%;
+    height: 32px;
+}
+.add_email img{
+    width: 65%;
+    cursor: pointer;
+}
+.mob_img{
+    display: none;
+}
+/* Section 4 End, Now Footer Section Starts */
 footer{
     width: 100%;
     padding: 0rem 1rem;
@@ -350,7 +385,7 @@ footer{
         width: 100%;
         transform: skewY(-5deg);
         z-index: -3;
-      }
+    }
       .meal_card{
           display: flex;
           flex-direction: row;
@@ -367,51 +402,93 @@ footer{
           border-radius: 6px;
       }
       .btn_2{
-          background-color: transparent;
+         background-color: transparent;
       }
-      footer{
-          padding: 0rem 8rem;
-          margin-top: 8rem;
-          margin-bottom: 4rem;
-      }
-      .dark_logo{
-          width: 200px;
-          cursor: pointer;
-      }
-      .f_content{
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-      }
-      .list_s{
-        width: 20%;
-      }
-      .s_links{
-          display: block;
-          margin-top: 2rem;
-          width: 20%;
-      }
-      .s_links .fa{
+      .email_input{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         align-items: center;
+         /* width: 100%; */
+         margin: 0rem 15rem;
+         margin-top: 2rem;
+        }
+    .mob_img{
+         display: block;           
+         width: 40%;
+   }
+    .mobile_img{
+         width: 100%;
+    }
+    .add_email{
+         width: 60%;
+    }
+    .add_email h1{
+         color: #282a35;
+         font-size: 2rem;
+    }
+    .add_email p{
+         color: #282a35;
+         font-weight: 0;
+         font-size: 0.8rem;
+         line-height: 4;
+    }
+    .email_enter{
+         border: 2px solid #ff9a7b;
+         background-color: #fcedf0;
+         color: #f07545;
+         font-weight: bold;
+         padding: 0.5rem;
+         border-radius: 4px; 
+         width: 300px;
+         height: 48px;
+    }
+    .add_email img{
+         width: 65%;
+    }
+    footer{
+      padding: 0rem 8rem;
+      margin-top: 8rem;
+      margin-bottom: 4rem;
+    }
+    .dark_logo{
+      width: 200px;
+      cursor: pointer;
+    }
+    .f_content{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .list_s{
+    width: 20%;
+    }
+    .s_links{
+      display: block;
+      margin-top: 2rem;
+      width: 20%;
+    }
+    .s_links .fa{
           background-color: #302d2c;
           color: white;
           border-radius: 30%;
           padding: 13px;
           cursor: pointer;
-      }
-      .s_links .fa:hover{
+    }
+    .s_links .fa:hover{
           background-color: #F27649;
           color: white;
           padding: 15px;
           transition: all ease 0.5s;
-      }
-      .s_img{
+    }
+    .s_img{
           width: 80%;
           height: auto;
           cursor: pointer;
-      }
-      .install{
+    }
+    .install{
           display: none;
-      }
+    }
     
 
 
