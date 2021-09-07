@@ -239,7 +239,6 @@ footer{
 }
 .list_s{
     width: 50%;
-    /* margin-top: 2rem; */
 }
 .list_s ul{
     list-style: none;
@@ -251,6 +250,7 @@ footer{
 .list_s ul li{
     color: #282a35;
     text-align: left;
+    cursor: pointer;
 }
 .s_links{
     display: none;
@@ -336,9 +336,7 @@ footer{
         height: 700px;
     }
     .img_conatiner{
-
-        height: 700px;
-        
+        height: 700px;   
     }
     .txt_x1{
         text-align: left;    
@@ -489,11 +487,4 @@ footer{
     .install{
           display: none;
     }
-    
-
-
-
-
-
-
 }
