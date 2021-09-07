@@ -208,17 +208,9 @@ footer{
     color: #282a35;
     text-align: left;
 }
-.apk_install{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.apk_design{
-    width: 100%;
-}
 .install{
     width: 100%;
-    cursor: pointer;
+    height: auto;
 }
 
 
