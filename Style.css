@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins,'Courier New', Courier, monospace;
+}
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* box-shadow: 5px 10px 30px rgb(182 201 216 / 88%); */
+    width: 100%;
+    /* z-index: 1; */
+    background-color: #fff;
+    /* opacity: 100; */
+}
+.nav_bar{
+    position: sticky;
+}
+.logo img{
+    width: 100%;
+    height: 70px;
+    margin: 2px;
+}
+.logo img:hover{
+    transition: all ease 0.5s;
+    height: 80px;
+}
+.bar{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+.cart{
+    color: #F27649;
+    font-weight: bold;
+    font-size: 1rem;
+    border-bottom: 2px solid #F27649;
+    margin: 1rem;
+}
+.container{
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background: url("./assets/Cover.jpg")
+    center center / cover no-repeat;
+    /* margin-bottom: 4rem; */
+}
+.img_container{
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    filter: contrast(50%);
+    background-color: black;
+    opacity: 40%;
+}
+.txt_x1{
+    position: absolute;
+    text-align: left;
+    margin: 0px 16px;
+}
+.txt_x1 h3{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    z-index: 3;
+}
+.txt_x1 p{
+    font-size: 1rem;
+    text-align: left;
+    color: #fff;
+}
+.location{
+    border: 2px solid #ff9a7b;
+    background-color: #fcedf0;
+    color: #f07545;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+.btn{
+    padding: 8px 16px;
+    background-color: #F27649;
+    color: white;
+    text-align: center;
+    border: 0px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn:hover{
+    transition: all ease 1s;
+    background-color:rgb(250, 29, 0);
+    box-shadow: 5px 10px 30px rgba(35, 38, 41, 0.884);
+}
+.about_bksc{
+    padding: 0rem 1rem;
+    margin-bottom: 1rem;
+}
+.about_bksc h1{
+    font-size: 1.2rem;
+    color: #282a35;
+    line-height: 4;
+    font-weight: bold;
+}
+.about_bksc p{
+    color: #494d60;
+}
+.meals{
+    padding: 0rem 1rem ;
+    width: 100%;
+}
+.meal_details{
+    text-align: left;
+    font-size: 1.5rem;
+    color: #282a35;
+    line-height: 2;
+    font-weight: bold;
+}
+.meal_card{
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    width: 100%;
+    align-items: center;
+}
+.meal {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    box-shadow: 5px 10px 30px rgba(182, 201, 216, 0.884);
+}
+.food{
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+}
+.meal h4{
+    color: #1d3557;
+    font-weight: 900;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.meal p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    color: #1d3557;
+}
+.txt_col{
+    color: #ff512f;
+}
+.btn_2{
+    margin: 2rem 0rem;
+    width: 100%;
+    padding: 1rem;
+}
+footer{
+    width: 100%;
+    padding: 0rem 1rem;
+    margin-top: 4rem;
+    background-color: #fff;
+    border-top: 2px solid #ff9a7b;
+    border-radius: 20px 20px 0px 0px;
+}
+.dark_logo{
+    width: 80%;
+    height: auto;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+}
+.f_content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+}
+.list_s{
+    width: 50%;
+    margin-top: 2rem;
+}
+.list_s ul{
+    list-style: none;
+}
+.head_list{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.list_s ul li{
+    color: #282a35;
+    text-align: left;
+}
+.apk_install{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apk_design{
+    width: 50%;
+}
+.install{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 900px){
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    .bar{
+        display: flex;
+        align-items: center;
+        width: auto;
+        height: 100px;
+        position: relative;
+        
+    }
+    nav{
+        position:sticky;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 5px 10px 30px #c96f4e;
+        width: 100%;
+        z-index: 1;
+        background-color: #fff;
+
+    }
+    .logo img{
+        width: 100%;
+        height: 70px;
+    }
+    nav ul {
+        display: flex;
+    }
+    nav ul li a{
+        display: flex;
+        height: auto;
+        line-height: 43px;
+        margin: 3px;
+        padding: 0px 22px;
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #494d60;
+        letter-spacing: 1px;
+    }
+    .cart{
+        color: #f73d0e;
+        font-weight: bold;
+        font-size: 1rem;
+        border-bottom: 2px solid #F27649;
+    }
+    nav ul li a:hover{
+        background-color: #F27649;
+        color: white;
+        box-shadow: 5px 10px 30px rgba(64,198,196,0.3);
+        transform: all ease 0.2s;
+    }
+    .fa {
+        align-self: center;
+    }
+    .main_container{
+        margin: 0px;
+    }
+    .container{
+        width: 100%;
+        height: 700px;
+    }
+    .img_conatiner{
+
+        height: 700px;
+        
+    }
+    .txt_x1{
+        text-align: left;    
+    }
+    .txt_x1 h3{
+        font-size: 2rem;
+        line-height: 1;
+    }
+    .txt_x1 p{
+        font-size: 1.5rem;
+        line-height: 2;
+    }
+    .location{
+        padding: 1rem;
+        margin: 0px;
+        border-radius: 6px;
+    }
+    .btn{
+        padding: 1rem;
+        margin: 0px;
+    }
+    .about_bksc{
+        padding: 0rem 8rem;
+    }
+    .about_bksc h1{
+        font-size: 2rem;
+    }
+    .about_bksc p{
+        font-size: 1.5rem;
+    }
+    .meals{
+        padding: 0rem 8rem;
+        position: relative;
+    }
+    .meal_details{
+        font-size: 3rem;
+    }
+    .food_diagonal {
+        left: 0px;
+        position: absolute;
+        top: 0px;
+        background-color: #F27649;
+        height: 100%;
+        width: 100%;
+        transform: skewY(-5deg);
+        z-index: -3;
+      }
+      .meal_card{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          margin-top: 2rem;
+          padding: 2rem;
+          width: 100%;
+      }
+      .meal{
+          width: 30%;
+          background-color: #fdfeff;
+          box-shadow: 5px 10px 30px rgba(182, 201, 216, 0.13);
+          border-radius: 6px;
+      }
+      .btn_2{
+          background-color: transparent;
+      }
+
+
+
+
+
+
+}
