@@ -214,10 +214,11 @@ footer{
     align-items: center;
 }
 .apk_design{
-    width: 50%;
+    width: 100%;
 }
 .install{
     width: 100%;
+    cursor: pointer;
 }
 
 
