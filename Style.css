@@ -369,8 +369,6 @@ footer{
       .btn_2{
           background-color: transparent;
       }
-
-
       footer{
           padding: 0rem 8rem;
           margin-top: 8rem;
@@ -392,6 +390,19 @@ footer{
           display: block;
           margin-top: 2rem;
           width: 20%;
+      }
+      .s_links .fa{
+          background-color: #302d2c;
+          color: white;
+          border-radius: 30%;
+          padding: 13px;
+          cursor: pointer;
+      }
+      .s_links .fa:hover{
+          background-color: #F27649;
+          color: white;
+          padding: 15px;
+          transition: all ease 0.5s;
       }
       .s_img{
           width: 80%;
