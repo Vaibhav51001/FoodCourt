@@ -318,6 +318,7 @@ footer{
         font-weight: bold;
         font-size: 1rem;
         border-bottom: 2px solid #F27649;
+        cursor: pointer;
     }
     nav ul li a:hover{
         background-color: #F27649;
@@ -398,6 +399,11 @@ footer{
           background-color: #fdfeff;
           box-shadow: 5px 10px 30px rgba(182, 201, 216, 0.13);
           border-radius: 6px;
+          transition: transform .5s ease-in-out;
+      }
+      .meal:hover {
+        transform: scale(1.2);
+        cursor: pointer;
       }
       .btn_2{
          background-color: transparent;
@@ -438,8 +444,11 @@ footer{
          font-weight: bold;
          padding: 0.5rem;
          border-radius: 4px; 
-         width: 300px;
+         width: 65%;
          height: 48px;
+    }
+    .btn_enter{
+        width: 30%;
     }
     .add_email img{
          width: 65%;
